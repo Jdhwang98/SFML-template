@@ -1,4 +1,4 @@
-# Install script for directory: /Users/john/CLionProjects/sfml_template
+# Install script for directory: /Users/john/CLionProjects/SFML maps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/john/CLionProjects/sfml_template/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/john/CLionProjects/SFML maps/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
