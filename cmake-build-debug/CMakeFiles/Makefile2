@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/SFML maps"
+CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/Textbox Editor"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/john/CLionProjects/SFML maps/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/sfml_template.dir/clean
 CMakeFiles/sfml_template.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target sfml_template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target sfml_template"
 .PHONY : CMakeFiles/sfml_template.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sfml_template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sfml_template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/sfml_template.dir/rule
 
 # Convenience name for target.

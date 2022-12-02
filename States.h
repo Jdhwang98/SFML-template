@@ -1,23 +1,22 @@
 //
-// Created by Johnathan Hwang on 11/1/22.
+// Created by Johnathan Hwang on 11/11/22.
 //
 
 #ifndef SFML_TEMPLATE_STATES_H
 #define SFML_TEMPLATE_STATES_H
-#include <map>
-#include "StatesEnum.h"
 
+#include "StatesEnum.h"
+#include <iostream>
+#include <map>
 class States {
 private:
-    std::map<StatesEnum, bool> states;
-
+    std::map<statesEnum, bool> states;
 public:
     States();
-    bool checkState(StatesEnum state);
-    void toggleState(StatesEnum state);
-    void enableState(StatesEnum state);
-    void disableState(StatesEnum state);
+    bool checkState(statesEnum state);
+    void toggleState(statesEnum state);
+    void enableState(statesEnum state);
+    void disableState(statesEnum state);
 };
-
 
 #endif //SFML_TEMPLATE_STATES_H

@@ -1,6 +1,6 @@
 CMakeFiles/sfml_template.dir/Application.cpp.o: \
-  /Users/john/CLionProjects/SFML\ maps/Application.cpp \
-  /Users/john/CLionProjects/SFML\ maps/Application.h \
+  /Users/john/CLionProjects/Textbox\ Editor/Application.cpp \
+  /Users/john/CLionProjects/Textbox\ Editor/Application.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \
@@ -496,7 +496,15 @@ CMakeFiles/sfml_template.dir/Application.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/john/CLionProjects/SFML\ maps/Triangle.h \
-  /Users/john/CLionProjects/SFML\ maps/States.h \
-  /Users/john/CLionProjects/SFML\ maps/StatesEnum.h \
-  /Users/john/CLionProjects/SFML\ maps/MouseEvent.h
+  /Users/john/CLionProjects/Textbox\ Editor/Textbox.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/istream \
+  /Users/john/CLionProjects/Textbox\ Editor/GUIcomponent.h \
+  /Users/john/CLionProjects/Textbox\ Editor/SnapshotInterface.h \
+  /Users/john/CLionProjects/Textbox\ Editor/Snapshot.h \
+  /Users/john/CLionProjects/Textbox\ Editor/EventHandler.h \
+  /Users/john/CLionProjects/Textbox\ Editor/States.h \
+  /Users/john/CLionProjects/Textbox\ Editor/StatesEnum.h \
+  /Users/john/CLionProjects/Textbox\ Editor/MouseEvents.h \
+  /Users/john/CLionProjects/Textbox\ Editor/MouseEvents.cpp \
+  /Users/john/CLionProjects/Textbox\ Editor/KeyShortCuts.h

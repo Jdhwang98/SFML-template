@@ -1,6 +1,6 @@
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.o: \
-  /Users/john/CLionProjects/SFML\ maps/MouseEvent.cpp \
-  /Users/john/CLionProjects/SFML\ maps/MouseEvent.h \
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o: \
+  /Users/john/CLionProjects/Textbox\ Editor/KeyShortCuts.cpp \
+  /Users/john/CLionProjects/Textbox\ Editor/KeyShortCuts.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \

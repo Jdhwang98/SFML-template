@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/SFML maps"
+CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/Textbox Editor"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/john/CLionProjects/SFML maps/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sfml_template.dir/depend.make
@@ -72,96 +72,256 @@ include CMakeFiles/sfml_template.dir/flags.make
 CMakeFiles/sfml_template.dir/main.cpp.o: CMakeFiles/sfml_template.dir/flags.make
 CMakeFiles/sfml_template.dir/main.cpp.o: ../main.cpp
 CMakeFiles/sfml_template.dir/main.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sfml_template.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/main.cpp.o -MF CMakeFiles/sfml_template.dir/main.cpp.o.d -o CMakeFiles/sfml_template.dir/main.cpp.o -c "/Users/john/CLionProjects/SFML maps/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sfml_template.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/main.cpp.o -MF CMakeFiles/sfml_template.dir/main.cpp.o.d -o CMakeFiles/sfml_template.dir/main.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/main.cpp"
 
 CMakeFiles/sfml_template.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/SFML maps/main.cpp" > CMakeFiles/sfml_template.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/main.cpp" > CMakeFiles/sfml_template.dir/main.cpp.i
 
 CMakeFiles/sfml_template.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/SFML maps/main.cpp" -o CMakeFiles/sfml_template.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/main.cpp" -o CMakeFiles/sfml_template.dir/main.cpp.s
 
 CMakeFiles/sfml_template.dir/Application.cpp.o: CMakeFiles/sfml_template.dir/flags.make
 CMakeFiles/sfml_template.dir/Application.cpp.o: ../Application.cpp
 CMakeFiles/sfml_template.dir/Application.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sfml_template.dir/Application.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Application.cpp.o -MF CMakeFiles/sfml_template.dir/Application.cpp.o.d -o CMakeFiles/sfml_template.dir/Application.cpp.o -c "/Users/john/CLionProjects/SFML maps/Application.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sfml_template.dir/Application.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Application.cpp.o -MF CMakeFiles/sfml_template.dir/Application.cpp.o.d -o CMakeFiles/sfml_template.dir/Application.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/Application.cpp"
 
 CMakeFiles/sfml_template.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/Application.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/SFML maps/Application.cpp" > CMakeFiles/sfml_template.dir/Application.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/Application.cpp" > CMakeFiles/sfml_template.dir/Application.cpp.i
 
 CMakeFiles/sfml_template.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/Application.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/SFML maps/Application.cpp" -o CMakeFiles/sfml_template.dir/Application.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/Application.cpp" -o CMakeFiles/sfml_template.dir/Application.cpp.s
+
+CMakeFiles/sfml_template.dir/Textbox.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/Textbox.cpp.o: ../Textbox.cpp
+CMakeFiles/sfml_template.dir/Textbox.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfml_template.dir/Textbox.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Textbox.cpp.o -MF CMakeFiles/sfml_template.dir/Textbox.cpp.o.d -o CMakeFiles/sfml_template.dir/Textbox.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/Textbox.cpp"
+
+CMakeFiles/sfml_template.dir/Textbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/Textbox.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/Textbox.cpp" > CMakeFiles/sfml_template.dir/Textbox.cpp.i
+
+CMakeFiles/sfml_template.dir/Textbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/Textbox.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/Textbox.cpp" -o CMakeFiles/sfml_template.dir/Textbox.cpp.s
+
+CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o: ../GUIcomponent.cpp
+CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o -MF CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o.d -o CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/GUIcomponent.cpp"
+
+CMakeFiles/sfml_template.dir/GUIcomponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/GUIcomponent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/GUIcomponent.cpp" > CMakeFiles/sfml_template.dir/GUIcomponent.cpp.i
+
+CMakeFiles/sfml_template.dir/GUIcomponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/GUIcomponent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/GUIcomponent.cpp" -o CMakeFiles/sfml_template.dir/GUIcomponent.cpp.s
+
+CMakeFiles/sfml_template.dir/EventHandler.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/EventHandler.cpp.o: ../EventHandler.cpp
+CMakeFiles/sfml_template.dir/EventHandler.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml_template.dir/EventHandler.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/EventHandler.cpp.o -MF CMakeFiles/sfml_template.dir/EventHandler.cpp.o.d -o CMakeFiles/sfml_template.dir/EventHandler.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/EventHandler.cpp"
+
+CMakeFiles/sfml_template.dir/EventHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/EventHandler.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/EventHandler.cpp" > CMakeFiles/sfml_template.dir/EventHandler.cpp.i
+
+CMakeFiles/sfml_template.dir/EventHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/EventHandler.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/EventHandler.cpp" -o CMakeFiles/sfml_template.dir/EventHandler.cpp.s
+
+CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o: ../SnapshotInterface.cpp
+CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o -MF CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o.d -o CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.cpp"
+
+CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.cpp" > CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.i
+
+CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.cpp" -o CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.s
+
+CMakeFiles/sfml_template.dir/Snapshot.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/Snapshot.cpp.o: ../Snapshot.cpp
+CMakeFiles/sfml_template.dir/Snapshot.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfml_template.dir/Snapshot.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Snapshot.cpp.o -MF CMakeFiles/sfml_template.dir/Snapshot.cpp.o.d -o CMakeFiles/sfml_template.dir/Snapshot.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/Snapshot.cpp"
+
+CMakeFiles/sfml_template.dir/Snapshot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/Snapshot.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/Snapshot.cpp" > CMakeFiles/sfml_template.dir/Snapshot.cpp.i
+
+CMakeFiles/sfml_template.dir/Snapshot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/Snapshot.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/Snapshot.cpp" -o CMakeFiles/sfml_template.dir/Snapshot.cpp.s
 
 CMakeFiles/sfml_template.dir/States.cpp.o: CMakeFiles/sfml_template.dir/flags.make
 CMakeFiles/sfml_template.dir/States.cpp.o: ../States.cpp
 CMakeFiles/sfml_template.dir/States.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfml_template.dir/States.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/States.cpp.o -MF CMakeFiles/sfml_template.dir/States.cpp.o.d -o CMakeFiles/sfml_template.dir/States.cpp.o -c "/Users/john/CLionProjects/SFML maps/States.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sfml_template.dir/States.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/States.cpp.o -MF CMakeFiles/sfml_template.dir/States.cpp.o.d -o CMakeFiles/sfml_template.dir/States.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/States.cpp"
 
 CMakeFiles/sfml_template.dir/States.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/States.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/SFML maps/States.cpp" > CMakeFiles/sfml_template.dir/States.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/States.cpp" > CMakeFiles/sfml_template.dir/States.cpp.i
 
 CMakeFiles/sfml_template.dir/States.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/States.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/SFML maps/States.cpp" -o CMakeFiles/sfml_template.dir/States.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/States.cpp" -o CMakeFiles/sfml_template.dir/States.cpp.s
 
-CMakeFiles/sfml_template.dir/Triangle.cpp.o: CMakeFiles/sfml_template.dir/flags.make
-CMakeFiles/sfml_template.dir/Triangle.cpp.o: ../Triangle.cpp
-CMakeFiles/sfml_template.dir/Triangle.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml_template.dir/Triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Triangle.cpp.o -MF CMakeFiles/sfml_template.dir/Triangle.cpp.o.d -o CMakeFiles/sfml_template.dir/Triangle.cpp.o -c "/Users/john/CLionProjects/SFML maps/Triangle.cpp"
+CMakeFiles/sfml_template.dir/History.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/History.cpp.o: ../History.cpp
+CMakeFiles/sfml_template.dir/History.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sfml_template.dir/History.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/History.cpp.o -MF CMakeFiles/sfml_template.dir/History.cpp.o.d -o CMakeFiles/sfml_template.dir/History.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/History.cpp"
 
-CMakeFiles/sfml_template.dir/Triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/Triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/SFML maps/Triangle.cpp" > CMakeFiles/sfml_template.dir/Triangle.cpp.i
+CMakeFiles/sfml_template.dir/History.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/History.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/History.cpp" > CMakeFiles/sfml_template.dir/History.cpp.i
 
-CMakeFiles/sfml_template.dir/Triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/Triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/SFML maps/Triangle.cpp" -o CMakeFiles/sfml_template.dir/Triangle.cpp.s
+CMakeFiles/sfml_template.dir/History.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/History.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/History.cpp" -o CMakeFiles/sfml_template.dir/History.cpp.s
 
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.o: CMakeFiles/sfml_template.dir/flags.make
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.o: ../MouseEvent.cpp
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml_template.dir/MouseEvent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/MouseEvent.cpp.o -MF CMakeFiles/sfml_template.dir/MouseEvent.cpp.o.d -o CMakeFiles/sfml_template.dir/MouseEvent.cpp.o -c "/Users/john/CLionProjects/SFML maps/MouseEvent.cpp"
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o: ../KeyShortCuts.cpp
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o -MF CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o.d -o CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.cpp"
 
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/MouseEvent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/SFML maps/MouseEvent.cpp" > CMakeFiles/sfml_template.dir/MouseEvent.cpp.i
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.cpp" > CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.i
 
-CMakeFiles/sfml_template.dir/MouseEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/MouseEvent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/SFML maps/MouseEvent.cpp" -o CMakeFiles/sfml_template.dir/MouseEvent.cpp.s
+CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.cpp" -o CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.s
+
+CMakeFiles/sfml_template.dir/MouseEvents.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/MouseEvents.cpp.o: ../MouseEvents.cpp
+CMakeFiles/sfml_template.dir/MouseEvents.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sfml_template.dir/MouseEvents.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/MouseEvents.cpp.o -MF CMakeFiles/sfml_template.dir/MouseEvents.cpp.o.d -o CMakeFiles/sfml_template.dir/MouseEvents.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/MouseEvents.cpp"
+
+CMakeFiles/sfml_template.dir/MouseEvents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/MouseEvents.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/MouseEvents.cpp" > CMakeFiles/sfml_template.dir/MouseEvents.cpp.i
+
+CMakeFiles/sfml_template.dir/MouseEvents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/MouseEvents.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/MouseEvents.cpp" -o CMakeFiles/sfml_template.dir/MouseEvents.cpp.s
+
+CMakeFiles/sfml_template.dir/Typing.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/Typing.cpp.o: ../Typing.cpp
+CMakeFiles/sfml_template.dir/Typing.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sfml_template.dir/Typing.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/Typing.cpp.o -MF CMakeFiles/sfml_template.dir/Typing.cpp.o.d -o CMakeFiles/sfml_template.dir/Typing.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/Typing.cpp"
+
+CMakeFiles/sfml_template.dir/Typing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/Typing.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/Typing.cpp" > CMakeFiles/sfml_template.dir/Typing.cpp.i
+
+CMakeFiles/sfml_template.dir/Typing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/Typing.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/Typing.cpp" -o CMakeFiles/sfml_template.dir/Typing.cpp.s
+
+CMakeFiles/sfml_template.dir/InputBox.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/InputBox.cpp.o: ../InputBox.cpp
+CMakeFiles/sfml_template.dir/InputBox.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/sfml_template.dir/InputBox.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/InputBox.cpp.o -MF CMakeFiles/sfml_template.dir/InputBox.cpp.o.d -o CMakeFiles/sfml_template.dir/InputBox.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/InputBox.cpp"
+
+CMakeFiles/sfml_template.dir/InputBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/InputBox.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/InputBox.cpp" > CMakeFiles/sfml_template.dir/InputBox.cpp.i
+
+CMakeFiles/sfml_template.dir/InputBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/InputBox.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/InputBox.cpp" -o CMakeFiles/sfml_template.dir/InputBox.cpp.s
+
+CMakeFiles/sfml_template.dir/TextInput.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/TextInput.cpp.o: ../TextInput.cpp
+CMakeFiles/sfml_template.dir/TextInput.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/sfml_template.dir/TextInput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/TextInput.cpp.o -MF CMakeFiles/sfml_template.dir/TextInput.cpp.o.d -o CMakeFiles/sfml_template.dir/TextInput.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/TextInput.cpp"
+
+CMakeFiles/sfml_template.dir/TextInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/TextInput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/TextInput.cpp" > CMakeFiles/sfml_template.dir/TextInput.cpp.i
+
+CMakeFiles/sfml_template.dir/TextInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/TextInput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/TextInput.cpp" -o CMakeFiles/sfml_template.dir/TextInput.cpp.s
+
+CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o: CMakeFiles/sfml_template.dir/flags.make
+CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o: ../TextInputSnapshot.cpp
+CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o: CMakeFiles/sfml_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o -MF CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o.d -o CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o -c "/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.cpp"
+
+CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.cpp" > CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.i
+
+CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.cpp" -o CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.s
 
 # Object files for target sfml_template
 sfml_template_OBJECTS = \
 "CMakeFiles/sfml_template.dir/main.cpp.o" \
 "CMakeFiles/sfml_template.dir/Application.cpp.o" \
+"CMakeFiles/sfml_template.dir/Textbox.cpp.o" \
+"CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o" \
+"CMakeFiles/sfml_template.dir/EventHandler.cpp.o" \
+"CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o" \
+"CMakeFiles/sfml_template.dir/Snapshot.cpp.o" \
 "CMakeFiles/sfml_template.dir/States.cpp.o" \
-"CMakeFiles/sfml_template.dir/Triangle.cpp.o" \
-"CMakeFiles/sfml_template.dir/MouseEvent.cpp.o"
+"CMakeFiles/sfml_template.dir/History.cpp.o" \
+"CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o" \
+"CMakeFiles/sfml_template.dir/MouseEvents.cpp.o" \
+"CMakeFiles/sfml_template.dir/Typing.cpp.o" \
+"CMakeFiles/sfml_template.dir/InputBox.cpp.o" \
+"CMakeFiles/sfml_template.dir/TextInput.cpp.o" \
+"CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o"
 
 # External object files for target sfml_template
 sfml_template_EXTERNAL_OBJECTS =
 
 sfml_template: CMakeFiles/sfml_template.dir/main.cpp.o
 sfml_template: CMakeFiles/sfml_template.dir/Application.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/Textbox.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/EventHandler.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/Snapshot.cpp.o
 sfml_template: CMakeFiles/sfml_template.dir/States.cpp.o
-sfml_template: CMakeFiles/sfml_template.dir/Triangle.cpp.o
-sfml_template: CMakeFiles/sfml_template.dir/MouseEvent.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/History.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/MouseEvents.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/Typing.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/InputBox.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/TextInput.cpp.o
+sfml_template: CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o
 sfml_template: CMakeFiles/sfml_template.dir/build.make
 sfml_template: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 sfml_template: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
 sfml_template: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 sfml_template: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 sfml_template: CMakeFiles/sfml_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sfml_template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable sfml_template"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml_template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +333,6 @@ CMakeFiles/sfml_template.dir/clean:
 .PHONY : CMakeFiles/sfml_template.dir/clean
 
 CMakeFiles/sfml_template.dir/depend:
-	cd "/Users/john/CLionProjects/SFML maps/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/john/CLionProjects/SFML maps" "/Users/john/CLionProjects/SFML maps" "/Users/john/CLionProjects/SFML maps/cmake-build-debug" "/Users/john/CLionProjects/SFML maps/cmake-build-debug" "/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles/sfml_template.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/john/CLionProjects/Textbox Editor" "/Users/john/CLionProjects/Textbox Editor" "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug" "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug" "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles/sfml_template.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/sfml_template.dir/depend
 

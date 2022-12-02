@@ -6,7 +6,7 @@
 #define SFML_TEMPLATE_APPLICATION_H
 #include <SFML/Graphics.hpp>
 #include <ostream>
-#include "Triangle.h"
+#include "Textbox.h"
 
 class Application {
 public:

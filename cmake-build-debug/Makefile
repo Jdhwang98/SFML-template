@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/SFML maps"
+CMAKE_SOURCE_DIR = "/Users/john/CLionProjects/Textbox Editor"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/john/CLionProjects/SFML maps/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" "/Users/john/CLionProjects/SFML maps/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/SFML maps/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -153,29 +153,197 @@ Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
-MouseEvent.o: MouseEvent.cpp.o
-.PHONY : MouseEvent.o
+EventHandler.o: EventHandler.cpp.o
+.PHONY : EventHandler.o
 
 # target to build an object file
-MouseEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvent.cpp.o
-.PHONY : MouseEvent.cpp.o
+EventHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/EventHandler.cpp.o
+.PHONY : EventHandler.cpp.o
 
-MouseEvent.i: MouseEvent.cpp.i
-.PHONY : MouseEvent.i
+EventHandler.i: EventHandler.cpp.i
+.PHONY : EventHandler.i
 
 # target to preprocess a source file
-MouseEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvent.cpp.i
-.PHONY : MouseEvent.cpp.i
+EventHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/EventHandler.cpp.i
+.PHONY : EventHandler.cpp.i
 
-MouseEvent.s: MouseEvent.cpp.s
-.PHONY : MouseEvent.s
+EventHandler.s: EventHandler.cpp.s
+.PHONY : EventHandler.s
 
 # target to generate assembly for a file
-MouseEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvent.cpp.s
-.PHONY : MouseEvent.cpp.s
+EventHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/EventHandler.cpp.s
+.PHONY : EventHandler.cpp.s
+
+GUIcomponent.o: GUIcomponent.cpp.o
+.PHONY : GUIcomponent.o
+
+# target to build an object file
+GUIcomponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o
+.PHONY : GUIcomponent.cpp.o
+
+GUIcomponent.i: GUIcomponent.cpp.i
+.PHONY : GUIcomponent.i
+
+# target to preprocess a source file
+GUIcomponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/GUIcomponent.cpp.i
+.PHONY : GUIcomponent.cpp.i
+
+GUIcomponent.s: GUIcomponent.cpp.s
+.PHONY : GUIcomponent.s
+
+# target to generate assembly for a file
+GUIcomponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/GUIcomponent.cpp.s
+.PHONY : GUIcomponent.cpp.s
+
+History.o: History.cpp.o
+.PHONY : History.o
+
+# target to build an object file
+History.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/History.cpp.o
+.PHONY : History.cpp.o
+
+History.i: History.cpp.i
+.PHONY : History.i
+
+# target to preprocess a source file
+History.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/History.cpp.i
+.PHONY : History.cpp.i
+
+History.s: History.cpp.s
+.PHONY : History.s
+
+# target to generate assembly for a file
+History.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/History.cpp.s
+.PHONY : History.cpp.s
+
+InputBox.o: InputBox.cpp.o
+.PHONY : InputBox.o
+
+# target to build an object file
+InputBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/InputBox.cpp.o
+.PHONY : InputBox.cpp.o
+
+InputBox.i: InputBox.cpp.i
+.PHONY : InputBox.i
+
+# target to preprocess a source file
+InputBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/InputBox.cpp.i
+.PHONY : InputBox.cpp.i
+
+InputBox.s: InputBox.cpp.s
+.PHONY : InputBox.s
+
+# target to generate assembly for a file
+InputBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/InputBox.cpp.s
+.PHONY : InputBox.cpp.s
+
+KeyShortCuts.o: KeyShortCuts.cpp.o
+.PHONY : KeyShortCuts.o
+
+# target to build an object file
+KeyShortCuts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o
+.PHONY : KeyShortCuts.cpp.o
+
+KeyShortCuts.i: KeyShortCuts.cpp.i
+.PHONY : KeyShortCuts.i
+
+# target to preprocess a source file
+KeyShortCuts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.i
+.PHONY : KeyShortCuts.cpp.i
+
+KeyShortCuts.s: KeyShortCuts.cpp.s
+.PHONY : KeyShortCuts.s
+
+# target to generate assembly for a file
+KeyShortCuts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.s
+.PHONY : KeyShortCuts.cpp.s
+
+MouseEvents.o: MouseEvents.cpp.o
+.PHONY : MouseEvents.o
+
+# target to build an object file
+MouseEvents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvents.cpp.o
+.PHONY : MouseEvents.cpp.o
+
+MouseEvents.i: MouseEvents.cpp.i
+.PHONY : MouseEvents.i
+
+# target to preprocess a source file
+MouseEvents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvents.cpp.i
+.PHONY : MouseEvents.cpp.i
+
+MouseEvents.s: MouseEvents.cpp.s
+.PHONY : MouseEvents.s
+
+# target to generate assembly for a file
+MouseEvents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/MouseEvents.cpp.s
+.PHONY : MouseEvents.cpp.s
+
+Snapshot.o: Snapshot.cpp.o
+.PHONY : Snapshot.o
+
+# target to build an object file
+Snapshot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Snapshot.cpp.o
+.PHONY : Snapshot.cpp.o
+
+Snapshot.i: Snapshot.cpp.i
+.PHONY : Snapshot.i
+
+# target to preprocess a source file
+Snapshot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Snapshot.cpp.i
+.PHONY : Snapshot.cpp.i
+
+Snapshot.s: Snapshot.cpp.s
+.PHONY : Snapshot.s
+
+# target to generate assembly for a file
+Snapshot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Snapshot.cpp.s
+.PHONY : Snapshot.cpp.s
+
+SnapshotInterface.o: SnapshotInterface.cpp.o
+.PHONY : SnapshotInterface.o
+
+# target to build an object file
+SnapshotInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o
+.PHONY : SnapshotInterface.cpp.o
+
+SnapshotInterface.i: SnapshotInterface.cpp.i
+.PHONY : SnapshotInterface.i
+
+# target to preprocess a source file
+SnapshotInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.i
+.PHONY : SnapshotInterface.cpp.i
+
+SnapshotInterface.s: SnapshotInterface.cpp.s
+.PHONY : SnapshotInterface.s
+
+# target to generate assembly for a file
+SnapshotInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.s
+.PHONY : SnapshotInterface.cpp.s
 
 States.o: States.cpp.o
 .PHONY : States.o
@@ -201,29 +369,101 @@ States.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/States.cpp.s
 .PHONY : States.cpp.s
 
-Triangle.o: Triangle.cpp.o
-.PHONY : Triangle.o
+TextInput.o: TextInput.cpp.o
+.PHONY : TextInput.o
 
 # target to build an object file
-Triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Triangle.cpp.o
-.PHONY : Triangle.cpp.o
+TextInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInput.cpp.o
+.PHONY : TextInput.cpp.o
 
-Triangle.i: Triangle.cpp.i
-.PHONY : Triangle.i
+TextInput.i: TextInput.cpp.i
+.PHONY : TextInput.i
 
 # target to preprocess a source file
-Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Triangle.cpp.i
-.PHONY : Triangle.cpp.i
+TextInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInput.cpp.i
+.PHONY : TextInput.cpp.i
 
-Triangle.s: Triangle.cpp.s
-.PHONY : Triangle.s
+TextInput.s: TextInput.cpp.s
+.PHONY : TextInput.s
 
 # target to generate assembly for a file
-Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Triangle.cpp.s
-.PHONY : Triangle.cpp.s
+TextInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInput.cpp.s
+.PHONY : TextInput.cpp.s
+
+TextInputSnapshot.o: TextInputSnapshot.cpp.o
+.PHONY : TextInputSnapshot.o
+
+# target to build an object file
+TextInputSnapshot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o
+.PHONY : TextInputSnapshot.cpp.o
+
+TextInputSnapshot.i: TextInputSnapshot.cpp.i
+.PHONY : TextInputSnapshot.i
+
+# target to preprocess a source file
+TextInputSnapshot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.i
+.PHONY : TextInputSnapshot.cpp.i
+
+TextInputSnapshot.s: TextInputSnapshot.cpp.s
+.PHONY : TextInputSnapshot.s
+
+# target to generate assembly for a file
+TextInputSnapshot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.s
+.PHONY : TextInputSnapshot.cpp.s
+
+Textbox.o: Textbox.cpp.o
+.PHONY : Textbox.o
+
+# target to build an object file
+Textbox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Textbox.cpp.o
+.PHONY : Textbox.cpp.o
+
+Textbox.i: Textbox.cpp.i
+.PHONY : Textbox.i
+
+# target to preprocess a source file
+Textbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Textbox.cpp.i
+.PHONY : Textbox.cpp.i
+
+Textbox.s: Textbox.cpp.s
+.PHONY : Textbox.s
+
+# target to generate assembly for a file
+Textbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Textbox.cpp.s
+.PHONY : Textbox.cpp.s
+
+Typing.o: Typing.cpp.o
+.PHONY : Typing.o
+
+# target to build an object file
+Typing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Typing.cpp.o
+.PHONY : Typing.cpp.o
+
+Typing.i: Typing.cpp.i
+.PHONY : Typing.i
+
+# target to preprocess a source file
+Typing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Typing.cpp.i
+.PHONY : Typing.cpp.i
+
+Typing.s: Typing.cpp.s
+.PHONY : Typing.s
+
+# target to generate assembly for a file
+Typing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml_template.dir/build.make CMakeFiles/sfml_template.dir/Typing.cpp.s
+.PHONY : Typing.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -261,15 +501,45 @@ help:
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"
-	@echo "... MouseEvent.o"
-	@echo "... MouseEvent.i"
-	@echo "... MouseEvent.s"
+	@echo "... EventHandler.o"
+	@echo "... EventHandler.i"
+	@echo "... EventHandler.s"
+	@echo "... GUIcomponent.o"
+	@echo "... GUIcomponent.i"
+	@echo "... GUIcomponent.s"
+	@echo "... History.o"
+	@echo "... History.i"
+	@echo "... History.s"
+	@echo "... InputBox.o"
+	@echo "... InputBox.i"
+	@echo "... InputBox.s"
+	@echo "... KeyShortCuts.o"
+	@echo "... KeyShortCuts.i"
+	@echo "... KeyShortCuts.s"
+	@echo "... MouseEvents.o"
+	@echo "... MouseEvents.i"
+	@echo "... MouseEvents.s"
+	@echo "... Snapshot.o"
+	@echo "... Snapshot.i"
+	@echo "... Snapshot.s"
+	@echo "... SnapshotInterface.o"
+	@echo "... SnapshotInterface.i"
+	@echo "... SnapshotInterface.s"
 	@echo "... States.o"
 	@echo "... States.i"
 	@echo "... States.s"
-	@echo "... Triangle.o"
-	@echo "... Triangle.i"
-	@echo "... Triangle.s"
+	@echo "... TextInput.o"
+	@echo "... TextInput.i"
+	@echo "... TextInput.s"
+	@echo "... TextInputSnapshot.o"
+	@echo "... TextInputSnapshot.i"
+	@echo "... TextInputSnapshot.s"
+	@echo "... Textbox.o"
+	@echo "... Textbox.i"
+	@echo "... Textbox.s"
+	@echo "... Typing.o"
+	@echo "... Typing.i"
+	@echo "... Typing.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

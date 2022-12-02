@@ -8,11 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/john/CLionProjects/SFML maps/Application.cpp" "CMakeFiles/sfml_template.dir/Application.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Application.cpp.o.d"
-  "/Users/john/CLionProjects/SFML maps/MouseEvent.cpp" "CMakeFiles/sfml_template.dir/MouseEvent.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/MouseEvent.cpp.o.d"
-  "/Users/john/CLionProjects/SFML maps/States.cpp" "CMakeFiles/sfml_template.dir/States.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/States.cpp.o.d"
-  "/Users/john/CLionProjects/SFML maps/Triangle.cpp" "CMakeFiles/sfml_template.dir/Triangle.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Triangle.cpp.o.d"
-  "/Users/john/CLionProjects/SFML maps/main.cpp" "CMakeFiles/sfml_template.dir/main.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/main.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/Application.cpp" "CMakeFiles/sfml_template.dir/Application.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Application.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/EventHandler.cpp" "CMakeFiles/sfml_template.dir/EventHandler.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/EventHandler.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/GUIcomponent.cpp" "CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/GUIcomponent.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/History.cpp" "CMakeFiles/sfml_template.dir/History.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/History.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/InputBox.cpp" "CMakeFiles/sfml_template.dir/InputBox.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/InputBox.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.cpp" "CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/KeyShortCuts.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/MouseEvents.cpp" "CMakeFiles/sfml_template.dir/MouseEvents.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/MouseEvents.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/Snapshot.cpp" "CMakeFiles/sfml_template.dir/Snapshot.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Snapshot.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.cpp" "CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/SnapshotInterface.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/States.cpp" "CMakeFiles/sfml_template.dir/States.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/States.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/TextInput.cpp" "CMakeFiles/sfml_template.dir/TextInput.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/TextInput.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.cpp" "CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/TextInputSnapshot.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/Textbox.cpp" "CMakeFiles/sfml_template.dir/Textbox.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Textbox.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/Typing.cpp" "CMakeFiles/sfml_template.dir/Typing.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/Typing.cpp.o.d"
+  "/Users/john/CLionProjects/Textbox Editor/main.cpp" "CMakeFiles/sfml_template.dir/main.cpp.o" "gcc" "CMakeFiles/sfml_template.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

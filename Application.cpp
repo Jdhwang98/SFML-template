@@ -5,21 +5,22 @@
 #include "Application.h"
 
 void Application::run() {
-    Triangle t;
+    Textbox textbox({350,80},{100,100});
+    textbox.setUpLabel("World Wide Web");
 
-    sf::RenderWindow window(sf::VideoMode(600, 600), "My window");
-    //sf::CircleShape shape(300.f);
-    //shape.setFillColor(sf::Color(100, 250, 50));
+    sf::RenderWindow window(sf::VideoMode(1820, 1080), "Text Box Editor");
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window.close();
-            t.eventHandler(window,event);
+            textbox.eventHandler(window,event);
+
         }
-        t.update();
+        textbox.update();
+
         window.clear();
-        window.draw(t);
+        window.draw(textbox);
         window.display();
     }
 }

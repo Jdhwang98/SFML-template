@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "sfml_template::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sfml_template-Debug-d0c28e97a3ff2181a9b4.json",
+					"jsonFile" : "target-sfml_template-Debug-9094c4eb35712217b985.json",
 					"name" : "sfml_template",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/john/CLionProjects/SFML maps/cmake-build-debug",
-		"source" : "/Users/john/CLionProjects/SFML maps"
+		"build" : "/Users/john/CLionProjects/Textbox Editor/cmake-build-debug",
+		"source" : "/Users/john/CLionProjects/Textbox Editor"
 	},
 	"version" : 
 	{

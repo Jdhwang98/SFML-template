@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug"/>
+				<Option working_dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sfml_template">
-				<Option output="/Users/john/CLionProjects/SFML maps/cmake-build-debug/sfml_template" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug"/>
+				<Option output="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/sfml_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_template"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_template"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sfml_template/fast">
-				<Option output="/Users/john/CLionProjects/SFML maps/cmake-build-debug/sfml_template" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug"/>
+				<Option output="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug/sfml_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,79 +53,142 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_template/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_template/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug"/>
+				<Option working_dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/john/CLionProjects/SFML maps/cmake-build-debug"/>
+				<Option working_dir="/Users/john/CLionProjects/Textbox Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/SFML\ maps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/john/CLionProjects/Textbox\ Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/Application.cpp">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Application.cpp">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/Application.h">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Application.h">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/MouseEvent.cpp">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/EventHandler.cpp">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/MouseEvent.h">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/EventHandler.h">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/States.cpp">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/GUIcomponent.cpp">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/States.h">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/GUIcomponent.h">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/StatesEnum.h">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/History.cpp">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/Triangle.cpp">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/History.h">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/Triangle.h">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/HistoryNode.h">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/main.cpp">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/InputBox.cpp">
 			<Option target="sfml_template"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/CMakeLists.txt">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/InputBox.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/KeyShortCuts.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/MouseEvents.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/MouseEvents.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Snapshot.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Snapshot.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/SnapshotInterface.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/States.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/States.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/StatesEnum.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/TextInput.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/TextInput.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/TextInputSnapshot.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Textbox.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Textbox.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Typing.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/Typing.h">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/main.cpp">
+			<Option target="sfml_template"/>
+		</Unit>
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/john/CLionProjects/SFML maps/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+		<Unit filename="/Users/john/CLionProjects/Textbox Editor/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>

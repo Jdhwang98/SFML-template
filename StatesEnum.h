@@ -1,17 +1,18 @@
 //
-// Created by Johnathan Hwang on 11/1/22.
+// Created by Johnathan Hwang on 11/11/22.
 //
 
 #ifndef SFML_TEMPLATE_STATESENUM_H
 #define SFML_TEMPLATE_STATESENUM_H
-
-#endif //SFML_TEMPLATE_STATESENUM_H
-
-enum StatesEnum{
+enum statesEnum
+{
     HIDDEN,
-    HOVERED,
-
-
-    //^ place new enums above this line ^
+    HOVER,
+    BlINKING,
+    BLINK_ON,
+    TEXT_INPUT,
+    CURSOR_MOVE,
+    BACKSPACE,
     LAST_STATE
 };
+#endif //SFML_TEMPLATE_STATESENUM_H
